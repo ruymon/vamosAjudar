@@ -48,7 +48,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  border-bottom: 3px solid #83C093;
+  border-bottom: 3px solid #dbc545;
 }
 
 /* HERO SECTION */
@@ -78,7 +78,7 @@ header nav ul li a:hover {
   font-size: 2.3rem;
   font-weight: 400;
   color: #686766;
-  line-height: 5rem;
+  line-height: 4rem;
   
   width: 80%;
 }
@@ -100,7 +100,7 @@ header nav ul li a:hover {
   border-radius: 5px;
   text-transform: uppercase;
   font-weight: 600;
-  background-color: #8CB898;
+  background-color: #dbc545;
   border: none;
   height: 6rem;
   transition: all 1;
@@ -113,6 +113,60 @@ header nav ul li a:hover {
 }
 
 .action-button:hover {
-  background-color: #83C093;
+  background-color: #d6c667;
+}
+
+#video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#video h1 {
+  font-size: 8rem;
+  font-weight: 600;
+  width: 80%;
+  color: #444444;
+}
+
+#video p {
+  margin-top: 5%;
+  font-size: 2.3rem;
+  font-weight: 400;
+  color: #686766;
+  width: 80%;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+
+@media (max-width: 800px) {
+  .hero-img {
+    display: none;
+  }
+
+  :root {
+    font-size: 45.5%;
+    
+  }
+
+  #hero-container {
+    padding: 0rem;
+  }
+
+  #video {
+    flex-direction: column;
+  }
+
+  #video video {
+    width: 80%;
+  }
+
 }
 
